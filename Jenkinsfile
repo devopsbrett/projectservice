@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 node {
     stage('Build') {
-        dir('git.home.foxienet.com/hostnotes') {
+        dir('git.home.foxienet.com/hostnotes/projectservice') {
             checkout scm
         }
         // sh('pwd && ls -Rl')
